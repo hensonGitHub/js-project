@@ -1,0 +1,28 @@
+{
+    "name": "henson-node",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "jest"
+    },
+    "jest": {
+        "verbose": true
+    },
+    "eslint": {
+        "extends": "eslint:recommended",
+        "parser": "babel-eslint",
+        "parserOptions": {
+            "ecmaVersion": 2018
+        }
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "babel-eslint": "^10.0.1",
+        "eslint": "^5.15.3",
+        "jest": "^24.5.0",
+        "typescript": "^3.3.4000"
+    }
+}
